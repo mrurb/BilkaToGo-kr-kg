@@ -25,7 +25,11 @@ return del([
 ])
 });
 
-gulp.task("default", gulp.series("clean","css","manifest","zip",(done)=>{
+gulp.task("build",gulp.parallel("css","manifest"),(done)=>{
+    done();
+})
+
+gulp.task("default", gulp.series("clean","build","zip",(done)=>{
     done();
 }));
 
