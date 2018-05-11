@@ -1,0 +1,19 @@
+{
+    "name": "BilkaToGo kr/KG viser",
+    "version": "0.1",
+    "description": "Viser kg pris på alle vare på BilkaToGo hjemmesiden",
+    "default_locale": "da",
+    "content_scripts": [
+        {
+            "css": [
+                "style.css"
+            ],
+            "matches": [
+                "https://www.bilkatogo.dk/*"
+            ]
+        }
+    ],
+    "author" : "Anders Urban",
+    "manifest_version": 2
+}
+
