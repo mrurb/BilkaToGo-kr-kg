@@ -1,3 +1,12 @@
 .product_list_pr_unit{ 
     display:block !important ;
 }
+
+table.cartcontent>tbody>tr>td>a>img {
+    height : 64px;
+    max-width: 64px;
+    width: auto !important;
+}
+table.cartcontent>tbody>tr>td {
+    text-align: center;
+}
