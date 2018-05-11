@@ -1,8 +1,7 @@
 {
     "name": "BilkaToGo kr/KG viser",
-    "version": "0.1",
+    "version": "0.0.1",
     "description": "Viser kg pris på alle vare på BilkaToGo hjemmesiden",
-    "default_locale": "da",
     "content_scripts": [
         {
             "css": [
